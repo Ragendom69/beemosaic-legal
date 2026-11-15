@@ -38,11 +38,11 @@
 
 <header>
   <h1>Privacy Policy</h1>
-  <p class="meta"><strong>Bee Mosaic</strong> &middot; Effective 8 November 2026 &middot; Last updated 14 November 2026</p>
+  <p class="meta"><strong>Bee Mosaic</strong> &middot; Effective 8 November 2026 &middot; Last updated 15 November 2026</p>
 </header>
 
 <p>This Privacy Policy explains what information is collected when you play <strong>Bee Mosaic</strong>
-(the &ldquo;Game&rdquo;, package identifier <code>com.ragendom.beemosaic</code>) on Android, why it is
+(the &ldquo;Game&rdquo;, package identifier <code>com.ragendom.beemosaic</code>) on Android and on iPhone (iOS), why it is
 collected, who it is shared with, and what rights you have over it.</p>
 
 <h2>1. Who is responsible for your data</h2>
@@ -64,9 +64,10 @@ worldwide.</p>
   <ul>
     <li><strong>There are no accounts.</strong> You never create one, and we never ask for your name, email address, phone number or postal address.</li>
     <li><strong>Your game progress is stored on your device</strong>, not on our servers. We do not operate any servers of our own.</li>
-    <li><strong>Third-party tools inside the Game do collect data</strong> &mdash; Google AdMob for advertising, Google Analytics for Firebase for anonymous gameplay statistics, Google Play Billing for purchases, and the Unity engine for basic device and stability information. Each is named in section 4.</li>
+    <li><strong>Third-party tools inside the Game do collect data</strong> &mdash; Google AdMob for advertising, Google Analytics for Firebase for anonymous gameplay statistics, Google Play Billing or the Apple App Store for purchases, and the Unity engine for basic device and stability information. Each is named in section 4.</li>
     <li><strong>Personalised advertising only happens if you consent to it</strong>, and you can change your mind at any time.</li>
-    <li><strong>We never see your payment details.</strong> Google Play handles all payments.</li>
+    <li><strong>We never see your payment details.</strong> Google Play (on Android) or Apple (on iPhone) handles all payments.</li>
+    <li><strong>On iPhone, the advertising identifier is only used if you allow tracking</strong> when iOS asks you (App Tracking Transparency).</li>
     <li><strong>The Game is not intended for children under 13.</strong></li>
   </ul>
 </div>
@@ -91,7 +92,7 @@ policy.</p>
 <p>Provided by Google Ireland Limited / Google LLC. The Game shows banner, interstitial and
 rewarded video advertisements through AdMob and its mediated ad partners. AdMob may collect:</p>
 <ul>
-  <li>your device advertising identifier &mdash; the <strong>Android Advertising ID (AAID)</strong>;</li>
+  <li>your device advertising identifier &mdash; the <strong>Android Advertising ID (AAID)</strong> on Android, or on iPhone the <strong>Identifier for Advertisers (IDFA)</strong>, but only if you allow tracking in the iOS App Tracking Transparency prompt (otherwise ads are measured without it, for example through Apple&rsquo;s SKAdNetwork);</li>
   <li>IP address, and an approximate location (typically country or city level) derived from it;</li>
   <li>device information: model, operating system version, language, screen characteristics, network type;</li>
   <li>advertising interactions: which ads were shown, viewed, clicked, completed or closed;</li>
@@ -124,13 +125,24 @@ Technologies, Inc. (United States). The engine and its purchasing module may col
 </ul>
 <p>See the <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener">Unity Game Player and App User Privacy Policy</a>.</p>
 
-<h3>4.4 Google Play (distribution)</h3>
+<h3>4.2a Apple App Store purchases (iPhone)</h3>
+
+<p>On iPhone the same optional purchases are made, validated and restored through Apple&rsquo;s In-App Purchase system,
+provided by Apple Distribution International Ltd. / Apple Inc. Your Apple Account and payment details are
+<strong>handled entirely by Apple; we never receive, see or store them</strong>. The Game reads the transaction,
+product identifier and purchase state to deliver what you bought and to restore the advertisement-removal item
+(&ldquo;Restore Purchases&rdquo; in the shop). See <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple&rsquo;s Privacy Policy</a>.</p>
+
+<h3>4.4 Google Play and the App Store (distribution)</h3>
 
 <p>The Game is distributed through Google Play under Google&rsquo;s own terms and privacy policy. Google Play
 may show us aggregate, anonymised statistics about installs, uninstalls, crashes and ratings; these never
 identify you to us. The Game may occasionally ask whether you would like to rate it; this prompt is the
 Google Play In-App Review feature, provided by Google, and any rating or review you leave is handled by Google
 Play under its own terms. The Game does not learn whether or what you rated.</p>
+<p>On iPhone the Game is distributed through Apple&rsquo;s App Store; Apple may show us aggregate, anonymised
+statistics about downloads, purchases, crashes and ratings, and the optional rating prompt is Apple&rsquo;s own
+in-app rating dialog, handled by Apple.</p>
 
 <h3>4.5 Google Analytics for Firebase (gameplay statistics)</h3>
 
@@ -203,6 +215,12 @@ dialog at any time from <strong>Settings &rarr; Privacy Options</strong> inside 
 <p>You can reset or delete your Advertising ID, and opt out of ad personalisation entirely, in
 <strong>Android Settings &rarr; Privacy &rarr; Ads</strong> (the exact path varies by manufacturer and Android version).</p>
 
+<h3>On iPhone</h3>
+<p>The Game asks for permission to track only through Apple&rsquo;s App Tracking Transparency prompt. If you choose
+&ldquo;Ask App Not to Track&rdquo;, the advertising identifier (IDFA) is not available to the Game or its ad partners.
+You can change this at any time in <strong>Settings &rarr; Privacy &amp; Security &rarr; Tracking</strong>, and you can
+limit personalised Apple ads in <strong>Settings &rarr; Privacy &amp; Security &rarr; Apple Advertising</strong>.</p>
+
 <h3>Everywhere</h3>
 <p>You can opt out of personalised Google advertising at
 <a href="https://adssettings.google.com" rel="noopener">adssettings.google.com</a>.
@@ -228,6 +246,7 @@ below, each of which processes it for the purposes described in section 4.</p>
 <table>
   <tr><th>Recipient</th><th>Role</th><th>Privacy policy</th></tr>
   <tr><td>Google Ireland Limited / Google LLC (AdMob, Google Analytics for Firebase, Google Play)</td><td>Advertising, consent management, gameplay statistics, distribution and billing</td><td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a></td></tr>
+  <tr><td>Apple Distribution International Ltd. / Apple Inc. (App Store, In-App Purchase)</td><td>Distribution and billing on iPhone</td><td><a href="https://www.apple.com/legal/privacy/" rel="noopener">apple.com/legal/privacy</a></td></tr>
   <tr><td>Unity Technologies</td><td>Game engine, purchasing module, basic diagnostics</td><td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener">unity.com/legal</a></td></tr>
   <tr><td>Advertising partners mediated by AdMob</td><td>Serving and measuring advertisements</td><td>Listed in the in-game consent dialog</td></tr>
 </table>
@@ -249,7 +268,7 @@ using the contact details in section 16.</p>
 <table>
   <tr><th>Data</th><th>Retention</th></tr>
   <tr><td>Game progress on your device</td><td>Until you delete the Game&rsquo;s data or uninstall it</td></tr>
-  <tr><td>Purchase records held by Google Play</td><td>For the life of the entitlement, plus the period required by accounting and tax law</td></tr>
+  <tr><td>Purchase records held by Google Play or Apple</td><td>For the life of the entitlement, plus the period required by accounting and tax law</td></tr>
   <tr><td>Advertising data held by Google and its partners</td><td>Per their own retention policies, linked in section 8</td></tr>
   <tr><td>Gameplay statistics held by Google Analytics for Firebase</td><td>Event-level data is deleted after <strong>14 months</strong>; aggregated reports may be kept longer</td></tr>
   <tr><td>Device and diagnostic data held by Unity</td><td>Per Unity&rsquo;s retention policy, linked in section 8</td></tr>
@@ -280,7 +299,7 @@ using the contact details in section 16.</p>
   </ul>
   <p><strong>By request:</strong> email <a href="mailto:ragendom@gmail.com">ragendom@gmail.com</a> with the subject
   line <strong>&ldquo;Data deletion request &ndash; Bee Mosaic&rdquo;</strong>. Because the Game has no accounts, please
-  include your device model and, if you have made a purchase, the Google Play order number, so
+  include your device model and, if you have made a purchase, the Google Play order number (or the Apple order ID from your App Store receipt), so
   that the correct records can be located. We will respond within <strong>one month</strong> as required by
   Article 12(3) GDPR.</p>
 </div>
