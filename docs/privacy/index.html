@@ -64,7 +64,7 @@ worldwide.</p>
   <ul>
     <li><strong>There are no accounts.</strong> You never create one, and we never ask for your name, email address, phone number or postal address.</li>
     <li><strong>Your game progress is stored on your device</strong>, not on our servers. We do not operate any servers of our own.</li>
-    <li><strong>Third-party tools inside the Game do collect data</strong> &mdash; Google AdMob for advertising, Google Analytics for Firebase for anonymous gameplay statistics, Google Play Billing or the Apple App Store for purchases, and the Unity engine for basic device and stability information. Each is named in section 4.</li>
+    <li><strong>Third-party tools inside the Game do collect data</strong> &mdash; Google AdMob for advertising, Google Analytics for Firebase for anonymous gameplay statistics, Google Play Billing or the Apple App Store for purchases, Meta App Events (Android, only with advertising consent) to measure our own Facebook and Instagram advertising, and the Unity engine for basic device and stability information. Each is named in section 4.</li>
     <li><strong>Personalised advertising only happens if you consent to it</strong>, and you can change your mind at any time.</li>
     <li><strong>We never see your payment details.</strong> Google Play (on Android) or Apple (on iPhone) handles all payments.</li>
     <li><strong>On iPhone, the advertising identifier is only used if you allow tracking</strong> when iOS asks you (App Tracking Transparency).</li>
@@ -160,6 +160,20 @@ you choose &ldquo;Do not consent&rdquo;, Google Analytics consent mode keeps sto
 switched off. See <a href="https://policies.google.com/privacy" rel="noopener">Google&rsquo;s Privacy Policy</a>
 and <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">how Google uses information from apps that use its services</a>.</p>
 
+<h3>4.6 Meta App Events (advertising measurement, Android)</h3>
+
+<p>When we advertise the Game on Facebook and Instagram, the Android version uses the Meta App Events SDK,
+provided by Meta Platforms Ireland Limited, to measure which advertisements led to installs and how effective
+they were. <strong>It is switched off by default and is only turned on if you give advertising consent</strong>
+in the consent dialog described in section 6 (outside the EEA, the UK and Switzerland, where that dialog is not
+required, it is turned on unless you opt out of ad personalisation on your device). When on, it may collect:</p>
+<ul>
+  <li>the Android <strong>Advertising ID</strong>, device model, operating system version, language and Game version;</li>
+  <li>app events: the Game being installed and opened, levels completed, the tutorial being finished, advertisements shown (with their estimated value) and purchases made (product and price only, never payment details).</li>
+</ul>
+<p>The Meta SDK used by the Game contains no Facebook login, sharing or advertising features, and we do not
+receive information that identifies you. See <a href="https://www.facebook.com/privacy/policy" rel="noopener">Meta&rsquo;s Privacy Policy</a>.</p>
+
 <h2>5. Why we process this data, and our legal basis</h2>
 
 <table>
@@ -180,8 +194,8 @@ and <a href="https://policies.google.com/technologies/partner-sites" rel="noopen
     <td><strong>Legitimate interests</strong> &mdash; Art. 6(1)(f): funding a free game</td>
   </tr>
   <tr>
-    <td>Showing personalised advertisements and measuring them</td>
-    <td>Advertising identifier, ad interactions, IP-derived location</td>
+    <td>Showing personalised advertisements and measuring them, including measuring our own advertising campaigns (Meta App Events)</td>
+    <td>Advertising identifier, ad interactions, IP-derived location, app events (installs, levels completed, purchases)</td>
     <td><strong>Consent</strong> &mdash; Art. 6(1)(a). Never processed without it.</td>
   </tr>
   <tr>
@@ -208,7 +222,8 @@ is personalised.</p>
 <p>Before any advertising identifier is used for personalisation, a consent dialog is shown using
 Google&rsquo;s <strong>User Messaging Platform (UMP)</strong>, which lists the advertising partners
 involved and lets you accept or reject each purpose. <strong>If you decline, you will still be able to
-play the entire Game</strong>; the advertisements you see will be non-personalised. You can reopen this
+play the entire Game</strong>; the advertisements you see will be non-personalised, and Meta App Events
+(section 4.6) stays switched off. You can reopen this
 dialog at any time from <strong>Settings &rarr; Privacy Options</strong> inside the Game and change your answer.</p>
 
 <h3>On Android</h3>
@@ -247,6 +262,7 @@ below, each of which processes it for the purposes described in section 4.</p>
   <tr><th>Recipient</th><th>Role</th><th>Privacy policy</th></tr>
   <tr><td>Google Ireland Limited / Google LLC (AdMob, Google Analytics for Firebase, Google Play)</td><td>Advertising, consent management, gameplay statistics, distribution and billing</td><td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a></td></tr>
   <tr><td>Apple Distribution International Ltd. / Apple Inc. (App Store, In-App Purchase)</td><td>Distribution and billing on iPhone</td><td><a href="https://www.apple.com/legal/privacy/" rel="noopener">apple.com/legal/privacy</a></td></tr>
+  <tr><td>Meta Platforms Ireland Limited (Meta App Events, Android)</td><td>Measuring our Facebook and Instagram advertising, only with consent</td><td><a href="https://www.facebook.com/privacy/policy" rel="noopener">facebook.com/privacy/policy</a></td></tr>
   <tr><td>Unity Technologies</td><td>Game engine, purchasing module, basic diagnostics</td><td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener">unity.com/legal</a></td></tr>
   <tr><td>Advertising partners mediated by AdMob</td><td>Serving and measuring advertisements</td><td>Listed in the in-game consent dialog</td></tr>
 </table>
@@ -271,6 +287,7 @@ using the contact details in section 16.</p>
   <tr><td>Purchase records held by Google Play or Apple</td><td>For the life of the entitlement, plus the period required by accounting and tax law</td></tr>
   <tr><td>Advertising data held by Google and its partners</td><td>Per their own retention policies, linked in section 8</td></tr>
   <tr><td>Gameplay statistics held by Google Analytics for Firebase</td><td>Event-level data is deleted after <strong>14 months</strong>; aggregated reports may be kept longer</td></tr>
+  <tr><td>Advertising measurement data held by Meta</td><td>Per Meta&rsquo;s retention policy, linked in section 8</td></tr>
   <tr><td>Device and diagnostic data held by Unity</td><td>Per Unity&rsquo;s retention policy, linked in section 8</td></tr>
   <tr><td>Support emails</td><td>Up to <strong>24 months</strong> after the matter is closed</td></tr>
 </table>
